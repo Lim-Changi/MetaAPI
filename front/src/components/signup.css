@@ -1,0 +1,54 @@
+.form-label {
+    flex-direction: column;
+    font-size: medium;
+    text-align: initial;
+    margin: 15px;
+}
+
+.form-input {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.signup-button {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.signup-button:disabled {
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.reset-button {
+    background-color: darkred;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    text-align: center;
+    display: inline-block;
+}
