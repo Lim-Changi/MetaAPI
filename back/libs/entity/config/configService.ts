@@ -24,7 +24,7 @@ class DBConfig {
 export class ConfigService {
   static appPort(): number {
     const { PORT } = process.env;
-    return PORT ? Number(PORT) : 3000;
+    return PORT ? Number(PORT) : 8080;
   }
 
   static swaggerAdminAuth(): SwaggerAdminConfig {
