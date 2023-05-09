@@ -7,6 +7,7 @@ import { ValidationSchema } from '@app/common/config/validationSchema';
 import { LoggingModule } from '@app/common/logging/logging.module';
 import { UserApiModule } from './User/user.api.module';
 import { SwaggerResponseController } from './SwaggerCommon/swagger.controller';
+import { FacebookModule } from "./Facebook/facebook.module";
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { SwaggerResponseController } from './SwaggerCommon/swagger.controller';
       validationSchema: ValidationSchema,
     }),
     UserApiModule,
+    FacebookModule,
     HttpModule,
     TerminusModule,
     LoggingModule,
